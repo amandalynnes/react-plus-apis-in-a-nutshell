@@ -22,15 +22,8 @@ function App() {
             <p>{s.material}</p>
             <p>{s.shoe_type}</p>
             <p>{s.fasten_type}</p>
-          
           </p>
         ))}
-        {/* <li>{s.brand_name}</li>,
-          <li>{s.manufacturer}</li>,
-          <li>{s.color}</li>,
-          <li>{s.material}</li>,
-          <li>{s.shoe_type}</li>,
-          <li>{s.fasten_type}</li> */}
     </ul>
     </div>
     );
