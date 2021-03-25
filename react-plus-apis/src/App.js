@@ -8,9 +8,32 @@ function App() {
     useEffect(() => {
       fetch(url)
         .then(res => res.json())
-        .then(data => console.log(data));
+        .then(data => setShoes(data));
     }, [])
-    return <h1>Hello Amanda, well done. You got this!</h1>;
+    return(
+    <div>
+    <h1>Shoes, Shoes, Shoes, Shoes!</h1>
+      <ul>
+        {shoes.map ((s) => (
+            <p>{s.size}
+            <p>{s.brand_name}</p>
+            <p>{s.manufacturer}</p>
+            <p>{s.color}</p>
+            <p>{s.material}</p>
+            <p>{s.shoe_type}</p>
+            <p>{s.fasten_type}</p>
+          
+          </p>
+        ))}
+        {/* <li>{s.brand_name}</li>,
+          <li>{s.manufacturer}</li>,
+          <li>{s.color}</li>,
+          <li>{s.material}</li>,
+          <li>{s.shoe_type}</li>,
+          <li>{s.fasten_type}</li> */}
+    </ul>
+    </div>
+    );
 }
 
 export default App;
