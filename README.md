@@ -1,3 +1,14 @@
+<!-- 
+Resources:
+
+https://stackoverflow.com/questions/63626757/django-rest-framework-cors-cross-origin-resource-sharing-is-not-working
+
+People:
+questions channel thread (Latisha and Jeffrey)
+ -->
+
+
+
 # react-plus-apis-in-a-nutshell
 
 Now that you've created an API with Django Rest Framework (DRF), let's put that API to use!
